@@ -1,3 +1,4 @@
+
 <%= form_with model: @deviceCriterion, local: true do |form| %>
  
   <% if @deviceCriterion.errors.any? %>
@@ -28,8 +29,8 @@
    <%= form.select :PlatformType, DeviceCriterion.PlatformTypes.keys, { class: 'form-control'} %>
   </p>			
   <p>
-   <%= form.label :Operator, { class: 'form-label'} %><br>
-   <%= form.select :Operator, DeviceCriterion.Operators.keys, { class: 'form-control'} %>
+   <%= form.label :Operator_, { class: 'form-label'} %><br>
+   <%= form.select :Operator_, DeviceCriterion.Operator_s.keys, { class: 'form-control'} %>
   </p>			
 
       <%= form.submit %>

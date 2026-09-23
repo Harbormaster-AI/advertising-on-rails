@@ -1,3 +1,4 @@
+
 class BillingProfile < ApplicationRecord
   enum PaymentTerms: [:Prepaid, :NetFifteen, :NetThirty, :NetSixty]
 

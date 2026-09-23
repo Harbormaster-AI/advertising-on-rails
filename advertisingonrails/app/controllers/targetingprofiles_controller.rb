@@ -1,9 +1,10 @@
+
 class TargetingProfilesController < ApplicationController
   def index
     @targetingProfiles = TargetingProfile.all
   end
  
-  def show
+  def find
     @targetingProfile = TargetingProfile.find(params[:id])
   end
  

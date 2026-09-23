@@ -1,9 +1,10 @@
+
 class ReportsController < ApplicationController
   def index
     @reports = Report.all
   end
  
-  def show
+  def find
     @report = Report.find(params[:id])
   end
  

@@ -1,3 +1,4 @@
+
 class Deal < ApplicationRecord
   enum DealType: [:OpenAuction, :PrivateAuction, :PreferredDeal, :ProgrammaticGuaranteed]
 

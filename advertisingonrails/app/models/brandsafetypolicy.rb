@@ -1,3 +1,4 @@
+
 class BrandSafetyPolicy < ApplicationRecord
   enum Level: [:None, :Moderate, :Strict]
   enum ContentRatingThreshold: [:G, :PG, :PGThirteen, :R, :Mature, :Unrated]

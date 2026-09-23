@@ -1,3 +1,4 @@
+
 class TargetingProfile < ApplicationRecord
 
 

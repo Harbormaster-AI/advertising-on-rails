@@ -1,9 +1,10 @@
+
 class PlacementsController < ApplicationController
   def index
     @placements = Placement.all
   end
  
-  def show
+  def find
     @placement = Placement.find(params[:id])
   end
  

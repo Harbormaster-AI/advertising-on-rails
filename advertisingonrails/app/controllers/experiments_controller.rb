@@ -1,9 +1,10 @@
+
 class ExperimentsController < ApplicationController
   def index
     @experiments = Experiment.all
   end
  
-  def show
+  def find
     @experiment = Experiment.find(params[:id])
   end
  

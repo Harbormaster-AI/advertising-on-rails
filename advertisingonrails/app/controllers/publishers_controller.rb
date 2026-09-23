@@ -1,9 +1,10 @@
+
 class PublishersController < ApplicationController
   def index
     @publishers = Publisher.all
   end
  
-  def show
+  def find
     @publisher = Publisher.find(params[:id])
   end
  

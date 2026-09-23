@@ -1,9 +1,10 @@
+
 class DataProvidersController < ApplicationController
   def index
     @dataProviders = DataProvider.all
   end
  
-  def show
+  def find
     @dataProvider = DataProvider.find(params[:id])
   end
  

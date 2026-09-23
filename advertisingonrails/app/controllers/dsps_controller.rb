@@ -1,9 +1,10 @@
+
 class DSPsController < ApplicationController
   def index
     @dSPs = DSP.all
   end
  
-  def show
+  def find
     @dSP = DSP.find(params[:id])
   end
  

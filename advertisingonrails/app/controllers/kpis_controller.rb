@@ -1,9 +1,10 @@
+
 class KPIsController < ApplicationController
   def index
     @kPIs = KPI.all
   end
  
-  def show
+  def find
     @kPI = KPI.find(params[:id])
   end
  

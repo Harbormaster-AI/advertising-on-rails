@@ -1,3 +1,4 @@
+
 class User < ApplicationRecord
   enum Role: [:Admin, :Trader, :Analyst, :Viewer]
 

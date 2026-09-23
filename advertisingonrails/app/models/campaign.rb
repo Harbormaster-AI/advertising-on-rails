@@ -1,3 +1,4 @@
+
 class Campaign < ApplicationRecord
   enum Objective: [:Awareness, :Reach, :Traffic, :Engagement, :Leads, :Sales, :AppInstalls, :VideoViews]
   enum Status: [:Draft, :Active, :Paused, :Completed, :Cancelled]

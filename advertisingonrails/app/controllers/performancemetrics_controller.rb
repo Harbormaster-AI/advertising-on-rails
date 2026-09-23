@@ -1,9 +1,10 @@
+
 class PerformanceMetricsController < ApplicationController
   def index
     @performanceMetrics = PerformanceMetric.all
   end
  
-  def show
+  def find
     @performanceMetric = PerformanceMetric.find(params[:id])
   end
  

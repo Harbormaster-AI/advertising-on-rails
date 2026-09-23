@@ -1,9 +1,10 @@
+
 class BrandSafetyPolicysController < ApplicationController
   def index
     @brandSafetyPolicys = BrandSafetyPolicy.all
   end
  
-  def show
+  def find
     @brandSafetyPolicy = BrandSafetyPolicy.find(params[:id])
   end
  

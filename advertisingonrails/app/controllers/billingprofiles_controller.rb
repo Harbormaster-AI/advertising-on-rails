@@ -1,9 +1,10 @@
+
 class BillingProfilesController < ApplicationController
   def index
     @billingProfiles = BillingProfile.all
   end
  
-  def show
+  def find
     @billingProfile = BillingProfile.find(params[:id])
   end
  

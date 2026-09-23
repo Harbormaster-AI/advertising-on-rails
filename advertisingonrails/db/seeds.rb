@@ -22,7 +22,7 @@
   DataProvider.create( name:"test string for name", website:"test string for website", ProviderType:0 )
   LineItem.create( name:"test string for name", bidAmount:"test value", dailyBudget:"test value", frequencyCap:"test value", Status:0, PricingModel:0, BidStrategy:0, Pacing:0 )
   TargetingProfile.create( name:"test string for name" )
-  DeviceCriterion.create( DeviceType:0, PlatformType:0, Operator:0 )
+  DeviceCriterion.create( DeviceType:0, PlatformType:0, Operator_:0 )
   BrandSafetyPolicy.create( Level:0, ContentRatingThreshold:0 )
   ContentCategory.create( code:"test string for code", name:"test string for name" )
   Publisher.create( name:"test string for name", website:"test string for website", PublisherType:0 )

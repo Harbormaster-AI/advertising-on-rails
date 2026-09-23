@@ -1,3 +1,4 @@
+
 class LineItem < ApplicationRecord
   enum Status: [:Draft, :Scheduled, :Running, :Paused, :Completed, :Cancelled]
   enum PricingModel: [:CPM, :CPC, :CPA, :CPL, :CPV, :FlatFee]

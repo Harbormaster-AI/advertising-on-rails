@@ -1,9 +1,10 @@
+
 class TrackingPixelsController < ApplicationController
   def index
     @trackingPixels = TrackingPixel.all
   end
  
-  def show
+  def find
     @trackingPixel = TrackingPixel.find(params[:id])
   end
  

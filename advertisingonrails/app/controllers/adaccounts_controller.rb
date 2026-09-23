@@ -1,9 +1,10 @@
+
 class AdAccountsController < ApplicationController
   def index
     @adAccounts = AdAccount.all
   end
  
-  def show
+  def find
     @adAccount = AdAccount.find(params[:id])
   end
  

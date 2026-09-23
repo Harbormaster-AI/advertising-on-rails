@@ -1,3 +1,4 @@
+
 class ConversionEvent < ApplicationRecord
   enum EventType: [:Lead, :Purchase, :Signup, :AddToCart, :ViewContent, :AppInstall]
   enum AttributionModel: [:LastClick, :FirstTouch, :Linear, :TimeDecay, :PositionBased, :DataDriven]

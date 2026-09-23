@@ -1,3 +1,4 @@
+
 class Rate < ApplicationRecord
   enum AdFormat: [:Banner, :Video, :Native, :Audio, :Interstitial, :RichMedia, :SearchText, :SocialPost, :CTVVideo]
   enum PricingModel: [:CPM, :CPC, :CPA, :CPL, :CPV, :FlatFee]

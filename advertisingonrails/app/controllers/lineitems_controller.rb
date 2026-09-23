@@ -1,9 +1,10 @@
+
 class LineItemsController < ApplicationController
   def index
     @lineItems = LineItem.all
   end
  
-  def show
+  def find
     @lineItem = LineItem.find(params[:id])
   end
  

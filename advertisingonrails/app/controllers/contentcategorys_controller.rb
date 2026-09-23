@@ -1,9 +1,10 @@
+
 class ContentCategorysController < ApplicationController
   def index
     @contentCategorys = ContentCategory.all
   end
  
-  def show
+  def find
     @contentCategory = ContentCategory.find(params[:id])
   end
  

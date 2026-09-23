@@ -14,7 +14,7 @@ class DeviceCriterionControllerTest < ActionDispatch::IntegrationTest
 
   test "should create deviceCriterion" do
     assert_difference("DeviceCriterion.count") do
-      post deviceCriterions_url, params: { deviceCriterion: { DeviceType:DeviceCriterion.DeviceTypes[0], PlatformType:DeviceCriterion.PlatformTypes[0], Operator:DeviceCriterion.Operators[0] } }
+      post deviceCriterions_url, params: { deviceCriterion: { DeviceType:DeviceCriterion.DeviceTypes[0], PlatformType:DeviceCriterion.PlatformTypes[0], Operator_:DeviceCriterion.Operator_s[0] } }
     end
 
     assert_redirected_to deviceCriterions_url

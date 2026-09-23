@@ -1,9 +1,10 @@
+
 class InventorySourcesController < ApplicationController
   def index
     @inventorySources = InventorySource.all
   end
  
-  def show
+  def find
     @inventorySource = InventorySource.find(params[:id])
   end
  

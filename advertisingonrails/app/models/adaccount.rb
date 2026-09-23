@@ -1,3 +1,4 @@
+
 class AdAccount < ApplicationRecord
 
 

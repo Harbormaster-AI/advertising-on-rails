@@ -1,3 +1,4 @@
+
 class Experiment < ApplicationRecord
   enum Status: [:Planned, :Running, :Paused, :Completed, :Cancelled]
 

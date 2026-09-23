@@ -1,3 +1,4 @@
+
 class Report < ApplicationRecord
   enum ReportType: [:Performance, :Delivery, :Inventory, :Billing]
 

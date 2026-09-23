@@ -1,3 +1,4 @@
+
 class AdSlot < ApplicationRecord
   enum Format: [:Banner, :Video, :Native, :Audio, :Interstitial, :RichMedia, :SearchText, :SocialPost, :CTVVideo]
 

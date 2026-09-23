@@ -1,9 +1,10 @@
+
 class ExperimentVariantsController < ApplicationController
   def index
     @experimentVariants = ExperimentVariant.all
   end
  
-  def show
+  def find
     @experimentVariant = ExperimentVariant.find(params[:id])
   end
  

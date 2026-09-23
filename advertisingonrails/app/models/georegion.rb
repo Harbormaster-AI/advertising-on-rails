@@ -1,3 +1,4 @@
+
 class GeoRegion < ApplicationRecord
   enum RegionType: [:Country, :State, :Province, :City, :DMA, :PostalCode]
 

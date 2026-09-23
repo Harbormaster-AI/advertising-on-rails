@@ -1,9 +1,10 @@
+
 class ConversionEventsController < ApplicationController
   def index
     @conversionEvents = ConversionEvent.all
   end
  
-  def show
+  def find
     @conversionEvent = ConversionEvent.find(params[:id])
   end
  

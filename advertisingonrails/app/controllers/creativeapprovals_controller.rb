@@ -1,9 +1,10 @@
+
 class CreativeApprovalsController < ApplicationController
   def index
     @creativeApprovals = CreativeApproval.all
   end
  
-  def show
+  def find
     @creativeApproval = CreativeApproval.find(params[:id])
   end
  

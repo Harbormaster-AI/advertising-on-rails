@@ -1,3 +1,4 @@
+
 class CreativeApproval < ApplicationRecord
   enum Status: [:Pending, :Approved, :Rejected]
 

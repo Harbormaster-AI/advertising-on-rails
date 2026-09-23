@@ -1,9 +1,10 @@
+
 class PaymentMethodsController < ApplicationController
   def index
     @paymentMethods = PaymentMethod.all
   end
  
-  def show
+  def find
     @paymentMethod = PaymentMethod.find(params[:id])
   end
  

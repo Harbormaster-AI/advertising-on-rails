@@ -1,3 +1,4 @@
+
 class DataProvider < ApplicationRecord
   enum ProviderType: [:FirstParty, :SecondParty, :ThirdParty]
 

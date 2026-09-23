@@ -1,9 +1,10 @@
+
 class InsertionOrdersController < ApplicationController
   def index
     @insertionOrders = InsertionOrder.all
   end
  
-  def show
+  def find
     @insertionOrder = InsertionOrder.find(params[:id])
   end
  

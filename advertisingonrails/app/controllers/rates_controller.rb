@@ -1,9 +1,10 @@
+
 class RatesController < ApplicationController
   def index
     @rates = Rate.all
   end
  
-  def show
+  def find
     @rate = Rate.find(params[:id])
   end
  

@@ -1,9 +1,10 @@
+
 class CreativeFilesController < ApplicationController
   def index
     @creativeFiles = CreativeFile.all
   end
  
-  def show
+  def find
     @creativeFile = CreativeFile.find(params[:id])
   end
  

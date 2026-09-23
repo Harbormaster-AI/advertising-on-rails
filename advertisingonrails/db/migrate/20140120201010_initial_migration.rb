@@ -96,7 +96,7 @@ class InitialMigration < ActiveRecord::Migration[6.1]
     create_table :deviceCriterions do |t|
       t.integer :DeviceType      
       t.integer :PlatformType      
-      t.integer :Operator      
+      t.integer :Operator_      
       t.timestamps
     end
     create_table :brandSafetyPolicys do |t|

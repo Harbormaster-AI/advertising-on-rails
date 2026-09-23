@@ -1,9 +1,10 @@
+
 class TeamsController < ApplicationController
   def index
     @teams = Team.all
   end
  
-  def show
+  def find
     @team = Team.find(params[:id])
   end
  

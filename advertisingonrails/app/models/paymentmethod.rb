@@ -1,3 +1,4 @@
+
 class PaymentMethod < ApplicationRecord
   enum MethodType: [:CreditCard, :Invoice, :Wire, :ACH]
 

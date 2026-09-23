@@ -1,9 +1,10 @@
+
 class RateCardsController < ApplicationController
   def index
     @rateCards = RateCard.all
   end
  
-  def show
+  def find
     @rateCard = RateCard.find(params[:id])
   end
  

@@ -1,3 +1,4 @@
+
 class AudienceSegment < ApplicationRecord
   enum ProviderType: [:FirstParty, :SecondParty, :ThirdParty]
 

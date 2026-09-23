@@ -1,9 +1,10 @@
+
 class GeoRegionsController < ApplicationController
   def index
     @geoRegions = GeoRegion.all
   end
  
-  def show
+  def find
     @geoRegion = GeoRegion.find(params[:id])
   end
  

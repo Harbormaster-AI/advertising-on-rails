@@ -1,9 +1,10 @@
+
 class DeviceCriterionsController < ApplicationController
   def index
     @deviceCriterions = DeviceCriterion.all
   end
  
-  def show
+  def find
     @deviceCriterion = DeviceCriterion.find(params[:id])
   end
  
@@ -44,6 +45,6 @@ class DeviceCriterionsController < ApplicationController
  
   private
     def deviceCriterion_params
-      params.require(:deviceCriterion).permit(:DeviceType, :PlatformType, :Operator)
+      params.require(:deviceCriterion).permit(:DeviceType, :PlatformType, :Operator_)
     end
 end

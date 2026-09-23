@@ -1,3 +1,4 @@
+
 class Placement < ApplicationRecord
 
 

@@ -1,9 +1,10 @@
+
 class CreativeAssetsController < ApplicationController
   def index
     @creativeAssets = CreativeAsset.all
   end
  
-  def show
+  def find
     @creativeAsset = CreativeAsset.find(params[:id])
   end
  

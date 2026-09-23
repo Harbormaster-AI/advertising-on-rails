@@ -1,9 +1,10 @@
+
 class CreativeVariationsController < ApplicationController
   def index
     @creativeVariations = CreativeVariation.all
   end
  
-  def show
+  def find
     @creativeVariation = CreativeVariation.find(params[:id])
   end
  

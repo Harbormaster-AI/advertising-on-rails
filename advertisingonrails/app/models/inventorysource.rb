@@ -1,3 +1,4 @@
+
 class InventorySource < ApplicationRecord
   enum Channel: [:Programmatic, :Direct, :Search, :Social, :Email, :Affiliate, :DOOH]
   enum PrimaryFormat: [:Banner, :Video, :Native, :Audio, :Interstitial, :RichMedia, :SearchText, :SocialPost, :CTVVideo]

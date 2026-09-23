@@ -1,3 +1,4 @@
+
 class TrackingPixel < ApplicationRecord
   enum EventType: [:Lead, :Purchase, :Signup, :AddToCart, :ViewContent, :AppInstall]
   enum PixelType: [:Image, :JavaScript, :ServerSide]

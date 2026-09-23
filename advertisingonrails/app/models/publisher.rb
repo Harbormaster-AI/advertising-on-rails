@@ -1,3 +1,4 @@
+
 class Publisher < ApplicationRecord
   enum PublisherType: [:Site, :App, :Network, :CTVApp]
 

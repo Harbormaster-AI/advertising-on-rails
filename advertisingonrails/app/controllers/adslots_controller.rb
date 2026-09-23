@@ -1,9 +1,10 @@
+
 class AdSlotsController < ApplicationController
   def index
     @adSlots = AdSlot.all
   end
  
-  def show
+  def find
     @adSlot = AdSlot.find(params[:id])
   end
  

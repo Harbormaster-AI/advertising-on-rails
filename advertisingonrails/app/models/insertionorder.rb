@@ -1,3 +1,4 @@
+
 class InsertionOrder < ApplicationRecord
   enum Status: [:Draft, :Sent, :Executed, :OnHold, :Closed, :Cancelled]
 

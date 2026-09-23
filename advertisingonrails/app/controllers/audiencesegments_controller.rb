@@ -1,9 +1,10 @@
+
 class AudienceSegmentsController < ApplicationController
   def index
     @audienceSegments = AudienceSegment.all
   end
  
-  def show
+  def find
     @audienceSegment = AudienceSegment.find(params[:id])
   end
  

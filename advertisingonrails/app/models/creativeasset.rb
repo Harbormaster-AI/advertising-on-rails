@@ -1,3 +1,4 @@
+
 class CreativeAsset < ApplicationRecord
   enum CreativeType: [:Image, :Video, :HTML5, :Audio]
   enum AdFormat: [:Banner, :Video, :Native, :Audio, :Interstitial, :RichMedia, :SearchText, :SocialPost, :CTVVideo]
