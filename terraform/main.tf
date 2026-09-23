@@ -12,7 +12,7 @@ provider "aws" {
       CreatedBy = "Harbormaster"
       Blueprint = "RubyonRails"
       DomainModel = "Advertising Industry Domain Model"
-      CertificationId = "c9cbdc80-3a4f-4f52-b0be-c0b78f0a8eb0"
+      CertificationId = "93ead7fb-062e-445b-b3f3-928dbd5b988e"
     }
   }
 }
@@ -39,7 +39,7 @@ resource "local_file" "private_key_pem" {
 }
 
 resource "aws_key_pair" "generated" {
-  key_name   = "pjsk-sshtest-0.43990079623210077"
+  key_name   = "pjsk-sshtest-0.6808636298102722"
   public_key = tls_private_key.generated.public_key_openssh
 
   lifecycle {
